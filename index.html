@@ -1,46 +1,269 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- METADATOS -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ministerio Luz y Verdad</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- TITULO -->
+  <title>Ministerio Luz y Verdad - Bienvenido</title>
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>Ministerio Luz y Verdad</h1>
-    <p>“Tu palabra es lámpara a mis pies” — Salmo 119:105</p>
+    <!-- BARRA DE NAVEGACION -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Templo Los Olivos</a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#events">Cultos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
   </header>
-
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#mensajes">Mensajes</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <section id="inicio">
-    <h2>Inicio</h2>
-    <p>Bienvenido a nuestro sitio cristiano. Aquí compartimos mensajes de fe y esperanza.</p>
-  </section>
-
-  <section id="nosotros">
-    <h2>Nosotros</h2>
-    <p>Somos una comunidad dedicada a difundir la palabra de Dios y apoyar a quienes lo necesitan.</p>
-  </section>
-
-  <section id="mensajes">
-    <h2>Mensajes</h2>
-    <p>Pronto encontrarás reflexiones y estudios bíblicos.</p>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Escríbenos a <a href="mailto:ministerioluz@gmail.com">ministerioluz@gmail.com</a></p>
-  </section>
-
+  <!-- CONTENIDO PRINCIPAL MAIN -->
+  <main>
+    <!-- SECCION HOME -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Bienvenido a Templo El Olivo</h1>
+            <p>Ven y vive una experiencia real con la Iglesia Pentecostal de Conchalí 🙌.</p>
+            <div class="cta-buttons">
+                <a href="#about" class="btn btn-primary">Sé Parte de Nosotros</a>
+                <a href="#events" class="btn btn-secondary">Ver Eventos</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION NOSOTROS -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Sobre Nosotros</h2>
+                <p>En Templo El Olivo, perteneciente a la Iglesia Pentecostal de Conchalí, 
+                  creemos que cada persona tiene un propósito divino. 
+                  Somos una comunidad que vive la fe con pasión 🔥, comparte 
+                  esperanza en medio de los desafíos 💫 y busca la presencia 
+                  de Dios como fuente de vida y transformación 🙌.
+                  Aquí no solo encontrarás una iglesia… encontrarás una familia espiritual que 
+                  te recibe con amor y te acompaña en tu caminar con Cristo 💚.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-item fade-in">
+                    <h3>Nuestra Misión</h3>
+                    <p>Guiar vidas hacia Cristo con amor, verdad y poder del Espíritu Santo 🔥.</p>
+                </div>
+                <div class="about-item fade-in">
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser un faro de fe que ilumina Conchalí y transforma generaciones 🌿✨.</p>
+                </div>
+                <div class="about-item fade-in">
+                    <h3>Nuestros Valores</h3>
+                    <p>Fe, unidad, servicio y pasión por la presencia de Dios 🙌.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTEO -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="1250">0</div>
+                <div class="stat-label">Miembros</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="45">0</div>
+                <div class="stat-label">Pastores</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="850">0</div>
+                <div class="stat-label">Donaciones</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-target="12">0</div>
+                <div class="stat-label">Iglesias</div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">📖</div>
+                    <h3>Estudio Bíblico</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🙏</div>
+                    <h3>Oración</h3>
+                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">❤️</div>
+                    <h3>Ayuda Comunitaria</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Ministerio Familiar</h3>
+                    <p>One day however a small line of blind text by the name of Lorem Ipsum decided to leave.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎵</div>
+                    <h3>Adoración</h3>
+                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">👦</div>
+                    <h3>Ministerio Juvenil</h3>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION EVENTOS -->
+    <section class="events" id="events">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Próximos Eventos</h2>
+                <p>Únete a nosotros en nuestras próximas actividades y celebraciones.</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card fade-in">
+                    <div class="event-image">📅</div>
+                    <div class="event-content">
+                        <div class="event-date">15 de Noviembre, 2025</div>
+                        <h3>Servicio Dominical</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    </div>
+                </div>
+                <div class="event-card fade-in">
+                    <div class="event-image">🎉</div>
+                    <div class="event-content">
+                        <div class="event-date">20 de Noviembre, 2025</div>
+                        <h3>Retiro Familiar</h3>
+                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                    </div>
+                </div>
+                <div class="event-card fade-in">
+                    <div class="event-image">🎶</div>
+                    <div class="event-content">
+                        <div class="event-date">25 de Noviembre, 2025</div>
+                        <h3>Noche de Adoración</h3>
+                        <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p>Nos encantaría saber de ti. Envíanos un mensaje y te responderemos pronto.</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item fade-in">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Dirección</h3>
+                            <p>123 Church Street, Ciudad, País</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p>info@christianchurch.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Teléfono</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+  <!-- PIE DE PAGINA -->
   <footer>
-    <p>&copy; 2025 Ministerio Luz y Verdad</p>
+    <div class="footer-content">
+            <div class="footer-section">
+                <h3>Christian Church</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">t</a>
+                    <a href="#">i</a>
+                    <a href="#">y</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#events">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Domingo: 9:00 AM - 12:00 PM</li>
+                    <li>Miércoles: 7:00 PM - 9:00 PM</li>
+                    <li>Viernes: 7:00 PM - 9:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Suscríbete para recibir noticias y actualizaciones.</p>
+                <form style="margin-top: 1rem;">
+                    <input type="email" placeholder="Tu email" style="padding: 0.5rem; border: none; border-radius: 5px; width: 100%; margin-bottom: 0.5rem;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Christian Church. Todos los derechos reservados.</p>
+        </div>
   </footer>
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
 </body>
 </html>
